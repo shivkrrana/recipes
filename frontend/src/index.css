@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Nunito:wght@200&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html{
+  font-size: 80%;
+  
+}
+body{
+  font-family: 'Josefin Sans', sans-serif;
+  
+  min-height: 100vh;
+  
+ 
+}
+
+
+

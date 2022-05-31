@@ -1,0 +1,84 @@
+
+.form_container{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.container p{
+    margin: 1.5rem 0px;
+}
+
+/* Full-width input fields */
+.container input{
+  width: 100%;
+  padding: 1.5rem;
+  margin: 0.5rem 0 2.2rem 0;
+  display: inline-block;
+  border: none;
+  background: #f7f7f7;
+  outline: none;
+}
+
+
+hr {
+  border: 0.1rem solid #f1f1f1;
+  margin-bottom: 2.5rem;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #f91762;
+  color: white;
+  padding: 1.4rem 2rem;
+  margin: 0.8rem 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+button:hover {
+    background-color: #c90a4a;
+}
+
+/* Extra styles for the cancel button */
+
+
+/* Float cancel and signup buttons and add an equal width */
+
+
+/* Add padding to container elements */
+.container {
+  padding: 1.6rem;
+  width: 30rem;
+    /* height: 20rem; */
+    /* border: 15px solid #fff; */
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.2);
+}
+.container span{
+    color: #ff0157;
+}
+.clearfix{
+    display: flex;
+    justify-content: center;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.signup{
+  font-size: 1.2rem;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
